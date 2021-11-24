@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Payment</title>
+
+
+  <link rel="stylesheet"  href="style/style.css">
+  <link rel="stylesheet"  href="style/all.css">
+  <link rel="stylesheet" href="style/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    
+   
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  
+  </div>
+</nav>
+
+
+
+
+  <div class="container checkout">
+  <div class="py-5 text-center">
+    
+    <h2>Upgrade to Premium</h2>
+    
+  </div>
+
+
+    
+
+   <!-- ------------------------billing address------------------------ --> 
+
+
+
+    <div class="col-md-6 order-md-1" id="ship">
+
+      <hr class="mb-4">
+
+        <h4 class="mb-3">Payment</h4>
+
+        <div class="d-block my-3">
+          
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fab fa-cc-visa fa-2x" style="color:navy;"></i>
+              <i class="fab fa-cc-mastercard fa-2x" style="color:red;"></i>
+              <i class="fab fa-cc-discover fa-2x" style="color:orange;"></i>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="cc-name">Name on card</label>
+            <input type="text" name="cardname" class="form-control" id="cc-name" placeholder="" required>
+            <small class="text-muted">Full name as displayed on card</small>
+            <div class="invalid-feedback">
+              Name on card is required
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="cc-number">Credit card number</label>
+            <input type="text" name="cardnumber" class="form-control" id="cc-number" placeholder="" required>
+            <div class="invalid-feedback">
+              Credit card number is required
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <label for="cc-expiration">Expiration</label>
+            <input type="text" name="expiration" class="form-control" id="cc-expiration" placeholder="" required>
+            <div class="invalid-feedback">
+              Expiration date required
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="cc-cvv">CVV</label>
+            <input type="text" name="cvv" class="form-control" id="cc-cvv" placeholder="" required>
+            <div class="invalid-feedback">
+              Security code required
+            </div>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <a href="premium-content.html"><button class="btn btn-primary btn-lg btn-block" type="submit"> Buy</button></a>
+      
+    </div>
+    </div>
+ 
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/all.js"></script>
+  <script src="js/jquery-3.4.1.popper.min.js" ></script>
+  <script src="js/jquery-3.4.1.bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
